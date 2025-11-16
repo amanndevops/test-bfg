@@ -13,8 +13,8 @@
 
 /* MySQL settings */
 define( 'DB_NAME',     'database_name_here' );
-define( 'DB_USER',     '***REMOVED***' );
-define( 'DB_PASSWORD', '***REMOVED***' );
+define( 'DB_USER',     '$OS.ENV' );
+define( 'DB_PASSWORD', '$OS.ENV' );
 define( 'DB_HOST',     'localhost' );
 define( 'DB_CHARSET',  'utf8mb4' );
 
